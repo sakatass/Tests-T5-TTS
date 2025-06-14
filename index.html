@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison Tables</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; vertical-align: top; }
+    th { background-color: #f2f2f2; }
+    img { height: 100px; display: block; margin: 0 auto 8px; }
+    audio { width: 100%; }
+    caption { caption-side: top; font-size: 1.2em; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+  <h1>Comparison Tables</h1>
+
+  <!-- 1) ASR Comparison (fill manually) -->
+  <h2>1. ASR Comparison</h2>
+  <table>
+    <caption>Fill phrases manually</caption>
+    <tr>
+      <th>Original</th>
+      <th>ElevenLabs</th>
+      <th>T5-TTS</th>
+      <th>StyleTTS2</th>
+    </tr>
+    <!-- 5 example rows -->
+    <tr><td><!-- --></td><td><!-- --></td><td><!-- --></td><td><!-- --></td></tr>
+    <tr><td><!-- --></td><td><!-- --></td><td><!-- --></td><td><!-- --></td></tr>
+    <tr><td><!-- --></td><td><!-- --></td><td><!-- --></td><td><!-- --></td></tr>
+    <tr><td><!-- --></td><td><!-- --></td><td><!-- --></td><td><!-- --></td></tr>
+    <tr><td><!-- --></td><td><!-- --></td><td><!-- --></td><td><!-- --></td></tr>
+  </table>
+
+  <!-- 2) Audio Comparison -->
+  <h2>2. Audio Comparison</h2>
+  <table>
+    <caption>Click play to listen</caption>
+    <tr>
+      <th>Original</th>
+      <th>ElevenLabs</th>
+      <th>T5-TTS</th>
+      <th>StyleTTS2</th>
+    </tr>
+    <!-- 5 example rows -->
+    <tr>
+      <td><audio controls src="Original_Audios/sample1.wav"></audio></td>
+      <td><audio controls src="Eleven_Audios/sample1.wav"></audio></td>
+      <td><audio controls src="T5-TTS_Audios/sample1.wav"></audio></td>
+      <td><audio controls src="StyleTTS2_Audios/sample1.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="Original_Audios/sample2.wav"></audio></td>
+      <td><audio controls src="Eleven_Audios/sample2.wav"></audio></td>
+      <td><audio controls src="T5-TTS_Audios/sample2.wav"></audio></td>
+      <td><audio controls src="StyleTTS2_Audios/sample2.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="Original_Audios/sample3.wav"></audio></td>
+      <td><audio controls src="Eleven_Audios/sample3.wav"></audio></td>
+      <td><audio controls src="T5-TTS_Audios/sample3.wav"></audio></td>
+      <td><audio controls src="StyleTTS2_Audios/sample3.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="Original_Audios/sample4.wav"></audio></td>
+      <td><audio controls src="Eleven_Audios/sample4.wav"></audio></td>
+      <td><audio controls src="T5-TTS_Audios/sample4.wav"></audio></td>
+      <td><audio controls src="StyleTTS2_Audios/sample4.wav"></audio></td>
+    </tr>
+    <tr>
+      <td><audio controls src="Original_Audios/sample5.wav"></audio></td>
+      <td><audio controls src="Eleven_Audios/sample5.wav"></audio></td>
+      <td><audio controls src="T5-TTS_Audios/sample5.wav"></audio></td>
+      <td><audio controls src="StyleTTS2_Audios/sample5.wav"></audio></td>
+    </tr>
+  </table>
+
+  <!-- 3) MEL Spectrograms Comparison -->
+  <h2>3. MEL Spectrograms</h2>
+  <table>
+    <caption>Visual comparison of MELs</caption>
+    <tr>
+      <th>Original</th>
+      <th>ElevenLabs</th>
+      <th>T5-TTS</th>
+      <th>StyleTTS2</th>
+    </tr>
+    <!-- 5 example rows -->
+    <tr>
+      <td><img src="Original_MELs/sample1.png" alt="Original MEL"></td>
+      <td><img src="Eleven_MELs/sample1.png" alt="ElevenLabs MEL"></td>
+      <td><img src="T5-TTS_MELs/sample1.png" alt="T5-TTS MEL"></td>
+      <td><img src="StyleTTS2_MELs/sample1.png" alt="StyleTTS2 MEL"></td>
+    </tr>
+    <tr>
+      <td><img src="Original_MELs/sample2.png" alt="Original MEL"></td>
+      <td><img src="Eleven_MELs/sample2.png" alt="ElevenLabs MEL"></td>
+      <td><img src="T5-TTS_MELs/sample2.png" alt="T5-TTS MEL"></td>
+      <td><img src="StyleTTS2_MELs/sample2.png" alt="StyleTTS2 MEL"></td>
+    </tr>
+    <tr>
+      <td><img src="Original_MELs/sample3.png" alt="Original MEL"></td>
+      <td><img src="Eleven_MELs/sample3.png" alt="ElevenLabs MEL"></td>
+      <td><img src="T5-TTS_MELs/sample3.png" alt="T5-TTS MEL"></td>
+      <td><img src="StyleTTS2_MELs/sample3.png" alt="StyleTTS2 MEL"></td>
+    </tr>
+    <tr>
+      <td><img src="Original_MELs/sample4.png" alt="Original MEL"></td>
+      <td><img src="Eleven_MELs/sample4.png" alt="ElevenLabs MEL"></td>
+      <td><img src="T5-TTS_MELs/sample4.png" alt="T5-TTS MEL"></td>
+      <td><img src="StyleTTS2_MELs/sample4.png" alt="StyleTTS2 MEL"></td>
+    </tr>
+    <tr>
+      <td><img src="Original_MELs/sample5.png" alt="Original MEL"></td>
+      <td><img src="Eleven_MELs/sample5.png" alt="ElevenLabs MEL"></td>
+      <td><img src="T5-TTS_MELs/sample5.png" alt="T5-TTS MEL"></td>
+      <td><img src="StyleTTS2_MELs/sample5.png" alt="StyleTTS2 MEL"></td>
+    </tr>
+  </table>
+
+</body>
+</html>
